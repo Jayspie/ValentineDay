@@ -1,0 +1,108 @@
+@font-face {
+    font-family:sweet_hearts_bv;
+    src: url(SWEEHB__.TTF);
+  }
+
+@font-face {
+    font-family:dad;
+    src: url(Valentine\ Cute.ttf);
+  }
+
+body{
+    background-color:#ffc5e6;
+}
+    #bear{
+        width:20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #question{
+        font-family:sweet_hearts_bv;
+        color: purple;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50%;
+        font-size: 69px;
+        text-align: center;
+    }
+    #butt{
+        width:800px;
+        height:100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn{
+        border:none;
+        width:300px;
+        height: 100px;
+        font-family: dad;
+        font-size: 35px;
+    }
+        #yes{
+            background-color: #228B22;
+            margin-right: 196px;
+        }
+        #yes:hover{
+            background-color: green;
+        }
+            #yes_ovlay{
+                position: fixed;
+                display: none;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ffc5e6;
+                opacity: 1;
+                z-index: 2;
+                cursor: pointer;
+            }
+            #bear_hug{
+                width: 400px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+            }
+
+            #yes_text{
+                font-family: dad;
+                font-size: 50px;
+                width:25%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        #no{
+            background-color: #cc0000;
+        }
+        #no:hover{
+            background-color: red;
+        }
+        #no_ovlay{
+            position: fixed;
+            display: none;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ffc5e6;
+            opacity: 1;
+            z-index: 2;
+            cursor: pointer;
+        }
+        #scary{
+            width: 95%;
+            height: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
